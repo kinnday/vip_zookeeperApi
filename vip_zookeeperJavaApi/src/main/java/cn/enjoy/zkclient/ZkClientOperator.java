@@ -11,12 +11,13 @@ import java.util.List;
 public class ZkClientOperator {
 
     /** zookeeper地址 */
-    static final String CONNECT_ADDR = "192.168.30.10:2181";
+    static final String CONNECT_ADDR = "59.110.139.17:2181";
     /** session超时时间 */
     static final int SESSION_OUTTIME = 10000;//ms
 
 
     public static void main(String[] args) throws Exception {
+//       非常简单
        // ZkClient zkc = new ZkClient(new ZkConnection(CONNECT_ADDR), SESSION_OUTTIME);
         ZkClient zkc = new ZkClient(CONNECT_ADDR, SESSION_OUTTIME);
 
@@ -25,6 +26,7 @@ public class ZkClientOperator {
         zkc.createPersistent("/super/c1", true);
         Thread.sleep(10000);
         zkc.delete("/temp");
+//      支持级联删除
         zkc.deleteRecursive("/super");
 
         //2. 设置path和data 并且读取子节点和每个节点的内容

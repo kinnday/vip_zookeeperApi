@@ -19,12 +19,14 @@
         <artifactId>zookeeper</artifactId>
         <version>3.4.12</version>
     </dependency>
+    <!-- zkclient -依赖-->
     <dependency>
         <groupId>com.101tec</groupId>
         <artifactId>zkclient</artifactId>
         <version>0.10</version>
     </dependency>
 
+    <!-- curator -依赖-->
     <dependency>
         <groupId>org.apache.curator</groupId>
         <artifactId>curator-framework</artifactId>

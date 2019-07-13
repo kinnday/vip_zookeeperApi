@@ -13,7 +13,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class TestZookeeperAuth implements Watcher {
 
     /** 连接地址 */
-    final static String CONNECT_ADDR = "192.168.30.10:2181";
+    final static String CONNECT_ADDR = "59.110.139.17:2181";
     /** 测试路径 */
     final static String PATH = "/testAuth";
     final static String PATH_DEL = "/testAuth/delNode";

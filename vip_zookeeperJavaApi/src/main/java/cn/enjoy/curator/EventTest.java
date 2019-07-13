@@ -21,7 +21,7 @@ import java.util.concurrent.Executors;
 public class EventTest {
 
     //ZooKeeper服务地址
-    private static final String SERVER = "192.168.30.10:2181";
+    private static final String SERVER = "59.110.139.17:2181";
 
     //会话超时时间
     private final int SESSION_TIMEOUT = 30000;

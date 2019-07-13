@@ -24,7 +24,7 @@ import static com.sun.xml.internal.ws.dump.LoggingDumpTube.Position.Before;
  */
 public class OperatorTest {
     //ZooKeeper服务地址
-    private static final String SERVER = "192.168.30.10:2181";
+    private static final String SERVER = "59.110.139.17:2181";
 
     //会话超时时间
     private final int SESSION_TIMEOUT = 30000;
@@ -173,6 +173,7 @@ public class OperatorTest {
      * 测试事务管理：碰到异常，事务会回滚
      * @throws Exception
      */
+//    支持事务
     @Test
     public void testTransaction() throws Exception{
         //定义几个基本操作

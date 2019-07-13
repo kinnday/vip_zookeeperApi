@@ -15,7 +15,7 @@ public class TestZkClientWatcher {
 
 
     /** zookeeper地址 */
-    static final String CONNECT_ADDR = "192.168.30.10:2181";
+    static final String CONNECT_ADDR = "59.110.139.17:2181";
     /** session超时时间 */
     static final int SESSION_OUTTIME = 10000;//ms
 
@@ -27,7 +27,7 @@ public class TestZkClientWatcher {
     public  void testZkClientWatcher1() throws Exception {
         ZkClient zkc = new ZkClient(new ZkConnection(CONNECT_ADDR), SESSION_OUTTIME);
 
-        //对父节点添加监听子节点变化。
+        //对父节点添加监听子节点变化。 注册监听，可以同时监听到子节点的变化
         zkc.subscribeChildChanges("/super", new IZkChildListener() {
             @Override
             public void handleChildChange(String parentPath, List<String> currentChilds) throws Exception {
@@ -57,7 +57,7 @@ public class TestZkClientWatcher {
 
     @Test
     /**
-     * subscribeDataChanges 订阅内容变化
+     * subscribeDataChanges 订阅内容变化【数据有变化时就能监听到】
      */
     public void testZkClientWatcher2() throws Exception {
         ZkClient zkc = new ZkClient(new ZkConnection(CONNECT_ADDR), SESSION_OUTTIME);

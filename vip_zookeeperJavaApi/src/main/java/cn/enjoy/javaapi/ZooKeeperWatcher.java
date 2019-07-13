@@ -17,7 +17,7 @@ public class ZooKeeperWatcher implements Watcher  {
     /** 定义session失效时间 */
     private static final int SESSION_TIMEOUT = 10000;
     /** zookeeper服务器地址 */
-    private static final String CONNECTION_ADDR = "192.168.30.10:2181";
+    private static final String CONNECTION_ADDR = "59.110.139.17:2181";
     /** zk父路径设置 */
     private static final String PARENT_PATH = "/testWatch";
     /** zk子路径设置 */
@@ -37,6 +37,7 @@ public class ZooKeeperWatcher implements Watcher  {
     public void createConnection(String connectAddr, int sessionTimeout) {
         this.releaseConnection();
         try {
+//          监听是一次性的
             zk = new ZooKeeper(connectAddr, sessionTimeout, this);
             System.out.println(LOG_PREFIX_OF_MAIN + "开始连接ZK服务器");
             connectedSemaphore.await();
@@ -293,6 +294,7 @@ public class ZooKeeperWatcher implements Watcher  {
            Thread.sleep(1000);
 
             // 创建子节点，同理如果想要watch到NodeChildrenChanged状态，需要调用getChildren(CHILDREN_PATH, true)
+//            监听子节点
             zkWatch.createPath(CHILDREN_PATH, System.currentTimeMillis() + "");
 
             Thread.sleep(1000);

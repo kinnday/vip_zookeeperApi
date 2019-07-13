@@ -12,7 +12,7 @@ import java.util.concurrent.CountDownLatch;
  */
 public class TestCreateSession {
     //ZooKeeper服务地址
-    private static final String SERVER = "192.168.30.10:2181";
+    private static final String SERVER = "59.110.139.17:2181";
 
     //会话超时时间
     private final int SESSION_TIMEOUT = 30000;
@@ -25,6 +25,8 @@ public class TestCreateSession {
         ZooKeeper zooKeeper = new ZooKeeper(SERVER,SESSION_TIMEOUT,null);
         System.out.println(zooKeeper);
         System.out.println(zooKeeper.getState());
+//        State:CONNECTING sessionid:0x0 local:null remoteserver:null lastZxid:0 xid:1 sent:0 recv:0 queuedpkts:0 pendingresp:0 queuedevents:0
+//        CONNECTING - 不可用的
     }
 
 
@@ -50,6 +52,8 @@ public class TestCreateSession {
 
         //连接完成之前先等待
         countDownLatch.await();
+//        已经获得了连接
+//          fxc-CONNECTED
         System.out.println(zooKeeper.getState());
     }
 }

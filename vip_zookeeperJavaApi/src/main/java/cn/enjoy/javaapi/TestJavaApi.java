@@ -11,7 +11,7 @@ import java.util.concurrent.CountDownLatch;
 public class TestJavaApi implements Watcher {
 
     private static final int SESSION_TIMEOUT = 10000;
-    private static final String CONNECTION_STRING = "192.168.30.10:2181";
+    private static final String CONNECTION_STRING = "59.110.139.17:2181";
     private static final String ZK_PATH = "/leader";
     private ZooKeeper zk = null;
 
@@ -150,7 +150,21 @@ public class TestJavaApi implements Watcher {
 
         sample.releaseConnection();
     }
+    /**
+     收到事件通知：SyncConnected
 
+     节点创建成功, Path: /leader, content: 我是节点初始内容
+
+     获取数据成功，path：/leader
+     数据内容: 我是节点初始内容
+
+     更新数据成功，path：/leader, stat: 42153,42154,1563028565939,1563028565966,1,0,0,102434277916934153,18,0,42153
+
+     获取数据成功，path：/leader
+     数据内容: 更新后的数据
+
+     删除节点成功，path：/leader
+     */
     /**
      * 收到来自Server的Watcher通知后的处理。
      */
