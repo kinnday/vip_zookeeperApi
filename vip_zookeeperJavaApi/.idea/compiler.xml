@@ -9,7 +9,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="orderService" />
         <module name="productService" />
+        <module name="zookeeperConfig" />
         <module name="zookeeperJavaApi" />
+        <module name="zookeeperLeader" />
+        <module name="zookeeperLock" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
@@ -19,7 +22,10 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="orderService" options="" />
       <module name="productService" options="" />
+      <module name="zookeeperConfig" options="" />
       <module name="zookeeperJavaApi" options="" />
+      <module name="zookeeperLeader" options="" />
+      <module name="zookeeperLock" options="" />
     </option>
   </component>
 </project>

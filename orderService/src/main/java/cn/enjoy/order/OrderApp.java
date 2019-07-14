@@ -1,6 +1,7 @@
 package cn.enjoy.order;
 
 import cn.enjoy.order.listener.InitListener;
+import cn.enjoy.order.listener.InitListenerZkClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletListenerRegistrationBean;
@@ -26,7 +27,10 @@ public class OrderApp {
     @Bean
     public ServletListenerRegistrationBean servletListenerRegistrationBean() {
         ServletListenerRegistrationBean servletListenerRegistrationBean = new ServletListenerRegistrationBean();
-        servletListenerRegistrationBean.setListener(new InitListener());
+//        servletListenerRegistrationBean.setListener(new InitListener());
+//          fxc-改为客户端方式实现
+        servletListenerRegistrationBean.setListener(new InitListenerZkClient());
+
         return servletListenerRegistrationBean;
     }
 

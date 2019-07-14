@@ -1,6 +1,7 @@
 package cn.enjoy.product.listener;
 
 import cn.enjoy.product.zk.ServiceRegister;
+import cn.enjoy.product.zk.ServiceRegisterZkClient;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
@@ -23,7 +24,9 @@ public class InitListener implements ServletContextListener {
         WebApplicationContextUtils.getRequiredWebApplicationContext(sce.getServletContext()).getAutowireCapableBeanFactory().autowireBean(this);
         try {
             String hostAddress = InetAddress.getLocalHost().getHostAddress();
-            ServiceRegister.register(hostAddress,port);
+//            ServiceRegister.register(hostAddress,port);
+//          fxc-改为客户端方式实现
+            ServiceRegisterZkClient.register(hostAddress,port);
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -14,7 +14,7 @@ public class OrderService implements Runnable {
     private OrderNumGenerator orderNumGenerator = new OrderNumGenerator();
 
     //发令枪，模拟50个并发
-    private static CountDownLatch countDownLatch = new CountDownLatch(50);
+    private static CountDownLatch countDownLatch = new CountDownLatch(150);
 
     private static List<String> result = new Vector<String>();
 
@@ -30,7 +30,7 @@ public class OrderService implements Runnable {
 
         System.out.println("####生成唯一订单号###");
 
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 150; i++) {
             new Thread(new OrderService()).start();
         }
 

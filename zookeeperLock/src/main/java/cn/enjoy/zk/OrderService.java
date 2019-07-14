@@ -8,9 +8,9 @@ import cn.enjoy.simple.OrderNumGenerator;
 public class OrderService implements Runnable {
     private OrderNumGenerator orderNumGenerator = new OrderNumGenerator();
 
-    private Lock lock = new ZookeeperDistrbuteLock();
+//    private Lock lock = new ZookeeperDistrbuteLock();
 
-    //private Lock lock = new ZookeeperDistrbuteLock2();
+    private Lock lock = new ZookeeperDistrbuteLock2();
 
     public void run() {
         getNumber();

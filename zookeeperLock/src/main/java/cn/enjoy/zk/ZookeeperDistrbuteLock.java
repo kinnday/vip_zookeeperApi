@@ -31,6 +31,7 @@ public class ZookeeperDistrbuteLock extends ZookeeperAbstractLock {
 
     @Override
     public void waitLock() {
+//      缺点： 羊群效应， 其他等待线程全部唤醒，一起竞争刚刚释放的锁
         IZkDataListener izkDataListener = new IZkDataListener() {
 
             public void handleDataDeleted(String path) throws Exception {
