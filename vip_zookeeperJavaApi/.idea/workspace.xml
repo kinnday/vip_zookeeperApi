@@ -18,40 +18,41 @@
     <session id="849138244">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="8" />
-          <entry key="java" value="57" />
+          <entry key="class" value="9" />
+          <entry key="java" value="64" />
           <entry key="properties" value="5" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="8" />
-          <entry key="JAVA" value="57" />
+          <entry key="CLASS" value="9" />
+          <entry key="JAVA" value="64" />
           <entry key="Properties" value="5" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="430" />
-          <entry key="properties" value="5" />
+          <entry key="java" value="447" />
+          <entry key="properties" value="6" />
           <entry key="xml" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="430" />
-          <entry key="Properties" value="5" />
+          <entry key="JAVA" value="447" />
+          <entry key="Properties" value="6" />
           <entry key="XML" value="21" />
         </counts>
       </usages-collector>
@@ -60,10 +61,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../productService/src/main/java/cn/enjoy/product/zk/ServiceRegisterZkClient.java">
+        <entry file="file://$PROJECT_DIR$/../zookeeperLock/src/main/java/cn/enjoy/lock/OrderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="26" column="41" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="41" />
+            <state relative-caret-position="198">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../zookeeperLock/src/main/java/cn/enjoy/lock/OrderNumGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -71,31 +81,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../zookeeperLock/src/main/java/cn/enjoy/zk/ZookeeperDistrbuteLock2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="32" column="65" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="65" />
+            <state relative-caret-position="237">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/enjoy/zkclient/TestZkClientWatcher.java">
+        <entry file="file://$PROJECT_DIR$/../zookeeperLock/src/main/java/cn/enjoy/simple/OrderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="35" selection-end-column="13" />
+            <state relative-caret-position="72">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/enjoy/zkclient/ZkClientOperator.java">
+        <entry file="file://$PROJECT_DIR$/../zookeeperLock/src/test/java/cn/enjoy/test/MySqlTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="44" column="21" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="21" />
+            <state relative-caret-position="121">
+              <caret line="32" column="45" lean-forward="true" selection-start-line="32" selection-start-column="45" selection-end-line="41" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/enjoy/javaapi/TestJavaApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../zookeeperLock/src/main/java/cn/enjoy/syn/OrderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="32" column="49" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../productService/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -107,17 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../orderService/src/main/java/cn/enjoy/order/listener/InitListenerZkClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/101tec/zkclient/0.10/zkclient-0.10.jar!/org/I0Itec/zkclient/ZkClient.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="145" column="65" selection-start-line="145" selection-start-column="50" selection-end-line="145" selection-end-column="65" />
+            <state relative-caret-position="198">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -125,8 +144,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../orderService/src/main/java/cn/enjoy/order/OrderApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="462">
+              <caret line="31" column="66" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -143,11 +162,14 @@
       <find>lock</find>
       <find>unLock</find>
       <find>createEphemeral</find>
-      <find>write</find>
       <find>subscribeDataChanges</find>
       <find>createEphemeralSequential</find>
       <find>subscribeChildChanges</find>
+      <find>handleChildChange</find>
+      <find>write</find>
       <find>readData</find>
+      <find>Runnable</find>
+      <find>CountDownLatch</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -164,7 +186,6 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/enjoy/javaapi/TestJavaApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/enjoy/javaapi/ZooKeeperWatcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/enjoy/zkclient/ZkClientOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/enjoy/zkclient/TestZkClientWatcher.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/enjoy/curator/OperatorTest.java" />
         <option value="$PROJECT_DIR$/../productService/src/main/java/cn/enjoy/product/zk/ServiceRegister.java" />
@@ -179,6 +200,7 @@
         <option value="$PROJECT_DIR$/../productService/src/main/java/cn/enjoy/product/listener/InitListener.java" />
         <option value="$PROJECT_DIR$/../orderService/src/main/java/cn/enjoy/order/OrderApp.java" />
         <option value="$PROJECT_DIR$/../productService/src/main/java/cn/enjoy/product/zk/ServiceRegisterZkClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/enjoy/zkclient/TestZkClientWatcher.java" />
         <option value="$PROJECT_DIR$/../orderService/src/main/java/cn/enjoy/order/listener/InitListenerZkClient.java" />
         <option value="$PROJECT_DIR$/../productService/src/main/resources/application.properties" />
       </list>
@@ -220,10 +242,10 @@
     <option name="vmOptions" value="-Dfile.encoding=GB2312" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="377" />
-    <option name="y" value="286" />
-    <option name="width" value="971" />
-    <option name="height" value="412" />
+    <option name="x" value="101" />
+    <option name="y" value="405" />
+    <option name="width" value="1317" />
+    <option name="height" value="325" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -292,114 +314,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orderService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="productService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="productService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="productService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="productService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="productService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="productService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="productService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="zk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="productService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
               <item name="vip_zookeeperJavaApi" type="462c0819:PsiDirectoryNode" />
@@ -438,6 +357,81 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="enjoy" type="462c0819:PsiDirectoryNode" />
               <item name="zkclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zookeeperLock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zookeeperLock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zookeeperLock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zookeeperLock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zookeeperLock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zookeeperLock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoy" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zookeeperLock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoy" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zookeeperLock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoy" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zookeeperLock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoy" type="462c0819:PsiDirectoryNode" />
+              <item name="syn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zookeeperJavaApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zookeeperLock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoy" type="462c0819:PsiDirectoryNode" />
+              <item name="zk" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -538,6 +532,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestZkClientWatcher.testZkClientWatcher1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeperJavaApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.enjoy.zkclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.enjoy.zkclient" />
+      <option name="MAIN_CLASS_NAME" value="cn.enjoy.zkclient.TestZkClientWatcher" />
+      <option name="METHOD_NAME" value="testZkClientWatcher1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="orderService" />
       <extension name="coverage">
@@ -575,9 +585,11 @@
       <item itemvalue="Application.OrderService (1)" />
       <item itemvalue="Application.OrderService (2)" />
       <item itemvalue="Application.OrderService (3)" />
+      <item itemvalue="JUnit.TestZkClientWatcher.testZkClientWatcher1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestZkClientWatcher.testZkClientWatcher1" />
         <item itemvalue="Application.OrderService (3)" />
         <item itemvalue="Application.OrderService (1)" />
         <item itemvalue="Application.OrderService (2)" />
@@ -598,7 +610,8 @@
       <updated>1563028251702</updated>
       <workItem from="1563028256259" duration="3238000" />
       <workItem from="1563095041437" duration="3068000" />
-      <workItem from="1563098282740" duration="4838000" />
+      <workItem from="1563098282740" duration="5911000" />
+      <workItem from="1563178335611" duration="2224000" />
     </task>
     <servers />
   </component>
@@ -615,9 +628,18 @@
     <history-entry file="TestZkClientWatcher_testZkClientWatcher2 - 2019.07.13 at 23h 04m 23s.xml">
       <configuration name="TestZkClientWatcher.testZkClientWatcher2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestZkClientWatcher_testZkClientWatcher1 - 2019.07.14 at 19h 29m 41s.xml">
+      <configuration name="TestZkClientWatcher.testZkClientWatcher1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestZkClientWatcher_testZkClientWatcher1 - 2019.07.14 at 19h 30m 06s.xml">
+      <configuration name="TestZkClientWatcher.testZkClientWatcher1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestZkClientWatcher_testZkClientWatcher1 - 2019.07.14 at 19h 30m 29s.xml">
+      <configuration name="TestZkClientWatcher.testZkClientWatcher1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11144000" />
+    <option name="totallyTimeSpent" value="14441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -631,7 +653,7 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5277778" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.54738563" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -642,7 +664,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32843137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -693,13 +715,6 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/enjoy/javaapi/TestJavaApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="165" column="24" selection-start-line="165" selection-start-column="24" selection-end-line="165" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.12/zookeeper-3.4.12.jar!/org/apache/zookeeper/ZooKeeper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -801,38 +816,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zookeeperLock/src/main/java/cn/enjoy/lock/OrderNumGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zookeeperLock/src/main/java/cn/enjoy/lock/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zookeeperLock/src/main/java/cn/enjoy/simple/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../zookeeperLock/src/main/java/cn/enjoy/simple/OrderNumGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zookeeperLock/src/main/java/cn/enjoy/syn/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -892,13 +879,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../productService/src/main/java/cn/enjoy/product/listener/InitListenerZkClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../productService/src/main/java/cn/enjoy/product/listener/InitListenerZkClient.java" />
     <entry file="file://$PROJECT_DIR$/../orderService/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -934,31 +915,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../orderService/src/main/java/cn/enjoy/order/OrderApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/enjoy/zkclient/ZkClientOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="44" column="21" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../orderService/src/main/java/cn/enjoy/order/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/101tec/zkclient/0.10/zkclient-0.10.jar!/org/I0Itec/zkclient/ZkClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="145" column="65" selection-start-line="145" selection-start-column="50" selection-end-line="145" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -976,31 +936,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zookeeperLock/src/main/java/cn/enjoy/zk/ZookeeperDistrbuteLock2.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/101tec/zkclient/0.10/zkclient-0.10.jar!/org/I0Itec/zkclient/ZkClient.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="32" column="65" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="65" />
+        <state relative-caret-position="211">
+          <caret line="145" column="65" selection-start-line="145" selection-start-column="50" selection-end-line="145" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/101tec/zkclient/0.10/zkclient-0.10.jar!/org/I0Itec/zkclient/IZkChildListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/enjoy/zkclient/ZkClientOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../productService/src/main/java/cn/enjoy/product/zk/ServiceRegisterZkClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="41" />
+        <state relative-caret-position="240">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/enjoy/zkclient/TestZkClientWatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../orderService/src/main/java/cn/enjoy/order/listener/InitListenerZkClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="968">
+          <caret line="50" column="68" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -1008,6 +975,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../orderService/src/main/java/cn/enjoy/order/listener/InitListenerZkClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../orderService/src/main/java/cn/enjoy/order/OrderApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="31" column="66" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeperLock/src/main/java/cn/enjoy/lock/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeperLock/src/main/java/cn/enjoy/lock/OrderNumGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeperLock/src/main/java/cn/enjoy/zk/ZookeeperDistrbuteLock2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeperLock/src/main/java/cn/enjoy/simple/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeperLock/src/test/java/cn/enjoy/test/MySqlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="32" column="45" lean-forward="true" selection-start-line="32" selection-start-column="45" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/enjoy/javaapi/TestJavaApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zookeeperLock/src/main/java/cn/enjoy/syn/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="49" />
         </state>
       </provider>
     </entry>

@@ -47,6 +47,11 @@ public class TestZkClientWatcher {
         zkc.createPersistent("/super" + "/" + "c2", "c2内容");
         Thread.sleep(1000);
 
+        System.out.println("createEphemeralSequential:------" );
+        zkc.createEphemeralSequential("/super" + "/" + "c3","lock");
+        Thread.sleep(1000);
+        System.out.println("createEphemeralSequential:------" );
+
         zkc.delete("/super/c2");
         Thread.sleep(1000);
 

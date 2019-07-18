@@ -31,8 +31,7 @@ public class InitListenerZkClient implements ServletContextListener {
             zkc.subscribeChildChanges(BASE_SERVICES + SERVICE_NAME, new IZkChildListener() {
                 @Override
                 public void handleChildChange(String parentPath, List<String> currentChilds) throws Exception {
-                    System.out.println("parentPath: " + parentPath);
-                    System.out.println("currentChilds: " + currentChilds);
+                    System.out.println("parentPath: " + parentPath+"   ;currentChilds: " + currentChilds);
                     updateServiceList();
                 }
             });
